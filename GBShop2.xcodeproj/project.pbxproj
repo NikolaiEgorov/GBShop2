@@ -74,7 +74,14 @@
 		EDD09283299687FC001CC9B1 = {
 			isa = PBXGroup;
 			children = (
-				EDD0928E299687FC001CC9B1 /* GBShop2 */,
+				EDFF939629968F4C000F332E /* Environments */,
+				EDFF939529968F41000F332E /* Resources */,
+				EDFF939429968F3B000F332E /* Core */,
+				EDFF939329968F37000F332E /* Flows */,
+				EDFF939229968F2D000F332E /* Assembly */,
+				EDFF939129968F24000F332E /* Entity */,
+				EDFF939029968F12000F332E /* Business Logic */,
+				EDFF938F29968F09000F332E /* App */,
 				EDD0929F299687FE001CC9B1 /* GBShop2Tests */,
 				EDD092A9299687FE001CC9B1 /* GBShop2UITests */,
 				EDD0928D299687FC001CC9B1 /* Products */,
@@ -89,25 +96,6 @@
 				EDD092A6299687FE001CC9B1 /* GBShop2UITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EDD0928E299687FC001CC9B1 /* GBShop2 */ = {
-			isa = PBXGroup;
-			children = (
-				EDD0928F299687FC001CC9B1 /* GBShop2App.swift */,
-				EDD09291299687FC001CC9B1 /* ContentView.swift */,
-				EDD09293299687FE001CC9B1 /* Assets.xcassets */,
-				EDD09295299687FE001CC9B1 /* Preview Content */,
-			);
-			path = GBShop2;
-			sourceTree = "<group>";
-		};
-		EDD09295299687FE001CC9B1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				EDD09296299687FE001CC9B1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		EDD0929F299687FE001CC9B1 /* GBShop2Tests */ = {
@@ -125,6 +113,66 @@
 				EDD092AC299687FE001CC9B1 /* GBShop2UITestsLaunchTests.swift */,
 			);
 			path = GBShop2UITests;
+			sourceTree = "<group>";
+		};
+		EDFF938F29968F09000F332E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EDD09291299687FC001CC9B1 /* ContentView.swift */,
+				EDD0928F299687FC001CC9B1 /* GBShop2App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EDFF939029968F12000F332E /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Business Logic";
+			sourceTree = "<group>";
+		};
+		EDFF939129968F24000F332E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EDFF939229968F2D000F332E /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		EDFF939329968F37000F332E /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		EDFF939429968F3B000F332E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EDFF939529968F41000F332E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDD09296299687FE001CC9B1 /* Preview Assets.xcassets */,
+				EDD09293299687FE001CC9B1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EDFF939629968F4C000F332E /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Environments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
